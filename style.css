@@ -1,0 +1,147 @@
+
+.background-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.content {
+    position: absolute;
+    margin: auto;
+    top: 110px;
+    bottom: 110px;
+    left: 63px;
+    right: 51px;
+    height: 390px;
+    width: 686px;
+    background-color: #152335;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.7);
+}
+
+.logo{
+    margin: 18px;
+    
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 36px;
+    padding-right: 56px;
+}
+
+.product-info {
+    width: 184px;
+    height: 250px;
+}
+
+.product-name {
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: rgb(225, 225, 225);
+    line-height: 1;
+}
+
+.product-description {
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: rgba(225, 225, 225, 0.541);
+    line-height: 0;
+}
+
+.forms {
+    margin-top: 26px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+select {
+    display: block;
+    padding-left: 10px;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+    color: #919baa;
+    width: 70px;
+    height: 32px;
+	box-sizing: border-box;
+	margin: 0;
+    border: 0.2px solid #919baa;
+    line-height: 1.286;
+	appearance: none;
+    background-color: #152335;
+    cursor: pointer;
+}
+
+.custom-select-size {
+    margin-right: 3px;
+}
+select:focus {
+	border-color: #919baa;
+	outline: none;
+}
+
+button {
+    height: 40px;
+    width: 184px;
+    background-color: #3A4553;
+    border: 0.2px solid #919baa;
+    outline: none;
+    font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+    color: #919baa;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: #2c3847;
+}
+
+button:active {
+    background-color: #3A4553;
+    transform: translateY(3px);
+    transition: .3s;
+  }
+
+.points-wrapper {
+    width: 440px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue, .white, .orange, .sea-blue {
+    margin: 5px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+  }
+
+.blue {
+    background-color: cadetblue;
+  }
+.white {
+    background-color: cornsilk;
+}
+
+.orange {
+    background-color: orange;
+}
+.sea-blue {
+    background-color: seagreen;
+}
+
+.blue:hover, .white:hover,
+.orange:hover, .sea-blue:hover {
+    border: 2px solid white;
+  }
